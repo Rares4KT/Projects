@@ -1,0 +1,10 @@
+clasa Cutie inceput
+    int volum~
+sfarsit
+
+Cutie c~
+
+blocul_principal inceput
+    c <- nou Cutie()~
+    c:greutate <- 10~ // Eroare Semantica: Membru inexistent
+sfarsit

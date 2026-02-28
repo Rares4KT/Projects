@@ -1,0 +1,76 @@
+int a~
+float b~
+int c~
+float d~
+string s~
+int v~
+int x~
+int y~
+int z~
+bool test~
+int varsta~
+
+    
+clasa Caine inceput
+    int varsta~
+    
+    void setVarsta(int v) inceput
+        varsta <- v~
+    sfarsit
+
+    int getVarsta() inceput
+        returneaza varsta~
+    sfarsit
+sfarsit
+
+int suma(int x, int y) inceput
+    int rez~
+    rez <- x + y~
+    returneaza rez~
+sfarsit
+
+void setVarsta(int v) inceput
+        varsta <- v~
+    sfarsit
+
+Caine grivei~
+
+blocul_principal inceput
+    grivei <- nou Caine()~
+    x <- 1~
+    a <- 5~
+    b <- 5.5~
+
+    s <- "Salut lume"~
+    Print(s)~
+
+    setVarsta(v)~
+    suma(x, y)~
+
+    c <- a + 20~ 
+    scrie(c)~
+
+    d <- b * 2.0~
+    Print(d)~
+    test <- adevarat && fals~
+    Print(test)~
+
+    daca (a < 10) inceput
+        Print("a este mai mic ca 10")~
+    sfarsit
+
+    daca (2 < 10) inceput
+        daca(a > 7) inceput
+                Print("a este mai mare ca 7")~
+                sfarsit
+        altfel inceput
+                Print("a este mai mic ca 7")~
+            sfarsit
+    sfarsit
+
+    cat_timp(x < 3) inceput
+        scrie(x)~
+        x <- x+1~
+    sfarsit
+
+sfarsit

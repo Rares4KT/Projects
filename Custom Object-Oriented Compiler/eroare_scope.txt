@@ -1,0 +1,10 @@
+void testScope() inceput
+    daca (adevarat) inceput
+        int x~ // Eroare Sintactica: var_decl nu e permis in blocuri de instructiuni
+        x <- 1~
+    sfarsit
+sfarsit
+
+blocul_principal inceput
+   Print("Test")~
+sfarsit

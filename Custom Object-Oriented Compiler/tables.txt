@@ -1,0 +1,49 @@
+=== Scope: Global ===
+Symbols:
+ - a [VAR] Type: int, Value: 5
+ - b [VAR] Type: float, Value: 5.5
+ - c [VAR] Type: int, Value: 25
+ - d [VAR] Type: float, Value: 11
+ - grivei [VAR] Type: object (Caine), Value: [Instance of Caine]
+ - s [VAR] Type: string, Value: "Salut lume"
+ - setVarsta [FUNC] Return: void, Params: 1
+ - suma [FUNC] Return: int, Params: 2
+ - test [VAR] Type: bool, Value: false
+ - v [VAR] Type: int, Value: 0
+ - varsta [VAR] Type: int, Value: 0
+ - x [VAR] Type: int, Value: 3
+ - y [VAR] Type: int, Value: 0
+ - z [VAR] Type: int, Value: 0
+---------   -------------------------------
+=== Scope: Class_Caine ===
+Parent Scope: Global
+Symbols:
+ - getVarsta [FUNC] Return: int, Params: 0
+ - setVarsta [FUNC] Return: void, Params: 1
+ - varsta [VAR] Type: int, Value: 0
+---------   -------------------------------
+=== Scope: Func_setVarsta ===
+Parent Scope: Class_Caine
+Symbols:
+ - v [VAR] Type: int, Value: 0
+---------   -------------------------------
+=== Scope: Func_getVarsta ===
+Parent Scope: Class_Caine
+Symbols:
+---------   -------------------------------
+=== Scope: Func_suma ===
+Parent Scope: Global
+Symbols:
+ - rez [VAR] Type: int, Value: 0
+ - x [VAR] Type: int, Value: 0
+ - y [VAR] Type: int, Value: 0
+---------   -------------------------------
+=== Scope: Func_setVarsta ===
+Parent Scope: Global
+Symbols:
+ - v [VAR] Type: int, Value: 0
+---------   -------------------------------
+=== Scope: Main ===
+Parent Scope: Global
+Symbols:
+---------   -------------------------------

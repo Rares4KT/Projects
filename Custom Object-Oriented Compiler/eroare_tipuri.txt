@@ -1,0 +1,5 @@
+int x~
+
+blocul_principal inceput
+    x <- 10.5~ 
+sfarsit

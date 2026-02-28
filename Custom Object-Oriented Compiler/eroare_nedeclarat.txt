@@ -1,0 +1,6 @@
+int x~
+
+blocul_principal inceput
+    x <- 10~
+    y <- 5~  // Eroare: y nu a fost declarat global
+sfarsit

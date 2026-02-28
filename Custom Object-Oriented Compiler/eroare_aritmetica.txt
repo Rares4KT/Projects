@@ -1,0 +1,10 @@
+int a~
+float b~
+float c~
+
+blocul_principal inceput
+    a <- 5~
+    b <- 2.5~
+    
+    c <- a + b~ // Eroare Semantica: + cere aceleasi tipuri
+sfarsit
